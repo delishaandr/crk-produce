@@ -50,5 +50,33 @@
   {
     "id": 13,
     "name": "Jewelry Salon"
+  },
+  {
+    "id": 14,
+    "name": "Lumberjack's Lodge"
+  },
+  {
+    "id": 15,
+    "name": "Jellybean Farm"
+  },
+  {
+    "id": 16,
+    "name": "Sugar Quarry"
+  },
+  {
+    "id": 17,
+    "name": "Windmill"
+  },
+  {
+    "id": 18,
+    "name": "Jellyberry Orchard"
+  },
+  {
+    "id": 19,
+    "name": "Milk Well"
+  },
+  {
+    "id": 20,
+    "name": "Cotton Candy Ranch"
   }
 ]

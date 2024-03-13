@@ -1,7 +1,7 @@
 <template>
   <div class="p-4">
     <div class="row">
-      <div class="col-md-4 mb-2">
+      <div class="col-md-4 mb-4">
         <div class="mb-3">
           <label>Filter by Building</label>
           <v-select 
@@ -33,22 +33,42 @@
         </div>
       </div>
       <div class="col-md-8">
-        <div v-if="isSelected" class="d-flex align-items-center">
+        <div v-if="isSelected" class="d-flex align-items-center mb-4">
           <div class="p-2">
             <img :src="selectedGoods.image_url" width="50px">
           </div>
-          <div class="p-2 flex-fill" style="font-size: large;">{{ selectedGoods.name }}</div>
+          <div class="p-2 flex-fill" style="font-size: x-large;">{{ selectedGoods.name }}</div>
           <div class="p-2" style="text-align: end;">
-            <div>{{ formatTime(selectedGoods.production_time) }}</div>
+            <div v-if="isSelectedGoods">{{ formatTime(selectedGoods.production_time) }}</div>
             <div>{{ getBuilding(selectedGoods.building_id) }}</div>
           </div>
         </div>
-        <div class="mt-2 row">
-          <div v-if="isSelectedGoods" class="col-md-6">
-            ingredients
+        <div class="mt-3 row">
+          <div v-if="isSelectedGoods" class="col-md-6 mb-4">
+            <h5>Ingredients</h5>
+            <div v-for="(ingredient, i) in selectedIngredients" :key="i">
+              <div class="d-flex align-items-center">
+                <div class="p-2">
+                  <img :src="ingredient.detail.image_url" width="50px">
+                </div>
+                <div class="p-2 flex-fill">{{ ingredient.detail.name }} (x{{ ingredient.amount }})</div>
+                <div v-if="ingredient.detail.is_goods">
+                  <!-- break down btn -->
+                </div>
+              </div>
+            </div>
           </div>
-          <div v-if="isSelected" class="col-md-6">
-            used in
+          <div v-if="isSelected" class="col-md-6 mb-3">
+            <h5>Used In</h5>
+            <div v-for="(prod, i) in selectedUsedIn" :key="i">
+              <div class="d-flex align-items-center">
+                <div class="p-2">
+                  <img :src="prod.detail.image_url" width="50px">
+                </div>
+                <div class="p-2 flex-fill">{{ prod.detail.name }}</div>
+                <div class="p-2">{{ prod.amount }}</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -78,6 +98,7 @@ export default {
       selectedGoods: null,
 
       selectedIngredients: [],
+      selectedUsedIn: [],
       isSelected: 0,
       isSelectedGoods: 0
     }
@@ -95,10 +116,13 @@ export default {
       if (value !== null) {
         this.isSelected = 1
         this.isSelectedGoods = value.is_goods
+        this.getIngredients(value.id)
+        this.getUsedIn(value.id)
       } else {
         this.isSelected = 0
         this.isSelectedGoods = 0
         this.selectedIngredients = []
+        this.selectedUsedIn = []
       }
     }
   },
@@ -116,6 +140,21 @@ export default {
     },
     getBuilding(id) {
       return this.buildings.find((b) => b.id === id).name
+    },
+    getIngredients(id) {
+      let ingredients = product_ingredients.filter((i) => i.product_id === id)
+      this.selectedIngredients = ingredients.map((i) => ({
+        ...i,
+        detail: products.find((p) => p.id === i.ingredient_id)
+      }))
+    },
+    getUsedIn(id) {
+      let used = product_ingredients.filter((i) => i.ingredient_id === id)
+      this.selectedUsedIn = used.map((i) => ({
+        ...i,
+        detail: products.find((p) => p.id === i.product_id)
+      }))
+      console.log(this.selectedUsedIn)
     }
   }
 }

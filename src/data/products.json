@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Roll Cake Wood",
     "is_goods": 0,
-    "building_id": "",
+    "building_id": 14,
     "level": "",
     "production_time": "",
     "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/53/Material_roll_cake_wood.png"
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Jellybean",
     "is_goods": 0,
-    "building_id": "",
+    "building_id": 15,
     "level": "",
     "production_time": "",
     "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/11/Material_jellybean.png"
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Sugar Cube",
     "is_goods": 0,
-    "building_id": "",
+    "building_id": 16,
     "level": "",
     "production_time": "",
     "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/68/Material_sugar_cube.png"
@@ -30,7 +30,7 @@
     "id": 4,
     "name": "Jellyberry",
     "is_goods": 0,
-    "building_id": "",
+    "building_id": 18,
     "level": "",
     "production_time": "",
     "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6b/Material_jellyberry.png"
@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Milk",
     "is_goods": 0,
-    "building_id": "",
+    "building_id": 19,
     "level": "",
     "production_time": "",
     "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/53/Material_milk.png"
@@ -48,7 +48,7 @@
     "id": 6,
     "name": "Biscuit Flour",
     "is_goods": 0,
-    "building_id": "",
+    "building_id": 17,
     "level": "",
     "production_time": "",
     "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b1/Material_biscuit_flour.png"
@@ -57,7 +57,7 @@
     "id": 7,
     "name": "Cotton Candy Wool",
     "is_goods": 0,
-    "building_id": "",
+    "building_id": 20,
     "level": "",
     "production_time": "",
     "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b1/Material_cotton_candy_wool.png"
