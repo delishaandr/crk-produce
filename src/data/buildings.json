@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Smithy"
+  },
+  {
+    "id": 2,
+    "name": "Jammery"
+  },
+  {
+    "id": 3,
+    "name": "Carpentry Shop"
+  },
+  {
+    "id": 4,
+    "name": "Bakery"
+  },
+  {
+    "id": 5,
+    "name": "Jampie Diner"
+  },
+  {
+    "id": 6,
+    "name": "Artisan's Workshop"
+  },
+  {
+    "id": 7,
+    "name": "Flower Shop"
+  },
+  {
+    "id": 8,
+    "name": "Dairy Factory"
+  },
+  {
+    "id": 9,
+    "name": "Latte Cafe"
+  },
+  {
+    "id": 10,
+    "name": "Toy Store"
+  },
+  {
+    "id": 11,
+    "name": "Barrel Inn"
+  },
+  {
+    "id": 12,
+    "name": "Maison du Cake"
+  },
+  {
+    "id": 13,
+    "name": "Jewelry Salon"
+  }
+]

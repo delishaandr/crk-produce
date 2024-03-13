@@ -3,567 +3,567 @@
     "id": 1,
     "name": "Roll Cake Wood",
     "is_goods": 0,
-    "building": "",
+    "building_id": "",
     "level": "",
     "production_time": "",
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/53/Material_roll_cake_wood.png/revision/latest?cb=20210302161024"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/53/Material_roll_cake_wood.png"
   },
   {
     "id": 2,
     "name": "Jellybean",
     "is_goods": 0,
-    "building": "",
+    "building_id": "",
     "level": "",
     "production_time": "",
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/11/Material_jellybean.png/revision/latest/scale-to-width-down/100?cb=20210302160922"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/11/Material_jellybean.png"
   },
   {
     "id": 3,
     "name": "Sugar Cube",
     "is_goods": 0,
-    "building": "",
+    "building_id": "",
     "level": "",
     "production_time": "",
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/68/Material_sugar_cube.png/revision/latest/scale-to-width-down/100?cb=20210302161058"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/68/Material_sugar_cube.png"
   },
   {
     "id": 4,
     "name": "Jellyberry",
     "is_goods": 0,
-    "building": "",
+    "building_id": "",
     "level": "",
     "production_time": "",
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6b/Material_jellyberry.png/revision/latest/scale-to-width-down/100?cb=20210302160944"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6b/Material_jellyberry.png"
   },
   {
     "id": 5,
     "name": "Milk",
     "is_goods": 0,
-    "building": "",
+    "building_id": "",
     "level": "",
     "production_time": "",
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/53/Material_milk.png/revision/latest/scale-to-width-down/100?cb=20210302161003"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/53/Material_milk.png"
   },
   {
     "id": 6,
     "name": "Biscuit Flour",
     "is_goods": 0,
-    "building": "",
+    "building_id": "",
     "level": "",
     "production_time": "",
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b1/Material_biscuit_flour.png/revision/latest/scale-to-width-down/100?cb=20210302160828"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b1/Material_biscuit_flour.png"
   },
   {
     "id": 7,
     "name": "Cotton Candy Wool",
     "is_goods": 0,
-    "building": "",
+    "building_id": "",
     "level": "",
     "production_time": "",
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b1/Material_cotton_candy_wool.png/revision/latest/scale-to-width-down/100?cb=20210302160858"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b1/Material_cotton_candy_wool.png"
   },
   {
     "id": 8,
     "name": "Robust Axe",
     "is_goods": 1,
-    "building": "Smithy",
+    "building_id": 1,
     "level": 1,
     "production_time": 30,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/26/Craft_robust_axe.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/26/Craft_robust_axe.png"
   },
   {
     "id": 9,
     "name": "Tempered Pickaxe",
     "is_goods": 1,
-    "building": "Smithy",
+    "building_id": 1,
     "level": 2,
     "production_time": 180,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d2/Craft_tempered_pickaxe.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d2/Craft_tempered_pickaxe.png"
   },
   {
     "id": 10,
     "name": "Candy Saw",
     "is_goods": 1,
-    "building": "Smithy",
+    "building_id": 1,
     "level": 3,
     "production_time": 480,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/be/Craft_candy_saw.png/revision/latest/scale-to-width-down/100?cb=20210302203627"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/be/Craft_candy_saw.png"
   },
   {
     "id": 11,
     "name": "Diggy Shovel",
     "is_goods": 1,
-    "building": "Smithy",
+    "building_id": 1,
     "level": 4,
     "production_time": 900,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/66/Craft_diggy_shovel.png/revision/latest/scale-to-width-down/100?cb=20210411235032"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/66/Craft_diggy_shovel.png"
   },
   {
     "id": 12,
     "name": "Enchanted Stake",
     "is_goods": 1,
-    "building": "Smithy",
+    "building_id": 1,
     "level": 5,
     "production_time": 3600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/bd/Craft_enchanted_stake.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/bd/Craft_enchanted_stake.png"
   },
   {
     "id": 13,
     "name": "Enchanted Tongs",
     "is_goods": 1,
-    "building": "Smithy",
+    "building_id": 1,
     "level": 6,
     "production_time": 10800,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/04/Craft_enchanted_tongs.png/revision/latest/scale-to-width-down/100?cb=20210411205347"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/04/Craft_enchanted_tongs.png"
   },
   {
     "id": 14,
     "name": "Indestructible Glazed Hammer",
     "is_goods": 1,
-    "building": "Smithy",
+    "building_id": 1,
     "level": 7,
     "production_time": 21600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/70/Craft_indestructible_glazed_hammer.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/70/Craft_indestructible_glazed_hammer.png"
   },
   {
     "id": 15,
     "name": "Jellybean Jam",
     "is_goods": 1,
-    "building": "Jammery",
+    "building_id": 2,
     "level": 1,
     "production_time": 90,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/74/Craft_jellybean_jam.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/74/Craft_jellybean_jam.png"
   },
   {
     "id": 16,
     "name": "Sweet Jelly Jam",
     "is_goods": 1,
-    "building": "Jammery",
+    "building_id": 2,
     "level": 2,
     "production_time": 480,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/44/Craft_sweet_jelly_jam.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/44/Craft_sweet_jelly_jam.png"
   },
   {
     "id": 17,
     "name": "Toffee Jam",
     "is_goods": 1,
-    "building": "Jammery",
+    "building_id": 2,
     "level": 3,
     "production_time": 1200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a8/Craft_toffee_jam.png/revision/latest/scale-to-width-down/100?cb=20210417020745"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a8/Craft_toffee_jam.png"
   },
   {
     "id": 18,
     "name": "Pomegranate Jam",
     "is_goods": 1,
-    "building": "Jammery",
+    "building_id": 2,
     "level": 4,
     "production_time": 7200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0c/Craft_pomegranate_jam.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0c/Craft_pomegranate_jam.png"
   },
   {
     "id": 19,
     "name": "Sparkleberry Jam",
     "is_goods": 1,
-    "building": "Jammery",
+    "building_id": 2,
     "level": 5,
     "production_time": 21600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/14/Craft_sparkleberry_jam.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/14/Craft_sparkleberry_jam.png"
   },
   {
     "id": 20,
     "name": "Pinecone Birdy Toy",
     "is_goods": 1,
-    "building": "Carpentry Shop",
+    "building_id": 3,
     "level": 1,
     "production_time": 300,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/17/Craft_pinecone_birdy_toy.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/17/Craft_pinecone_birdy_toy.png"
   },
   {
     "id": 21,
     "name": "Acorn Lamp",
     "is_goods": 1,
-    "building": "Carpentry Shop",
+    "building_id": 3,
     "level": 2,
     "production_time": 1320,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f6/Craft_acorn_lamp.png/revision/latest/scale-to-width-down/100?cb=20210302160046"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f6/Craft_acorn_lamp.png"
   },
   {
     "id": 22,
     "name": "Cuckoo Clock",
     "is_goods": 1,
-    "building": "Carpentry Shop",
+    "building_id": 3,
     "level": 3,
     "production_time": 7200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/91/Craft_cuckoo_clock.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/91/Craft_cuckoo_clock.png"
   },
   {
     "id": 23,
     "name": "Swan Feather Dreamcatcher",
     "is_goods": 1,
-    "building": "Carpentry Shop",
+    "building_id": 3,
     "level": 4,
     "production_time": 12600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/44/Craft_swan_feather_dreamcatcher.png/revision/latest/scale-to-width-down/100?cb=20210414195255"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/44/Craft_swan_feather_dreamcatcher.png"
   },
   {
     "id": 24,
     "name": "Hearty Rye",
     "is_goods": 1,
-    "building": "Bakery",
+    "building_id": 4,
     "level": 1,
     "production_time": 720,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/35/Craft_hearty_rye.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/35/Craft_hearty_rye.png"
   },
   {
     "id": 25,
     "name": "Tart Jampie",
     "is_goods": 1,
-    "building": "Bakery",
+    "building_id": 4,
     "level": 2,
     "production_time": 1200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6d/Craft_tart_jampie.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6d/Craft_tart_jampie.png"
   },
   {
     "id": 26,
     "name": "Ginkgo Focaccia",
     "is_goods": 1,
-    "building": "Bakery",
+    "building_id": 4,
     "level": 3,
     "production_time": 1800,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/62/Craft_ginkgo_focaccia.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/62/Craft_ginkgo_focaccia.png"
   },
   {
     "id": 27,
     "name": "Glazed Donuts",
     "is_goods": 1,
-    "building": "Bakery",
+    "building_id": 4,
     "level": 4,
     "production_time": 3600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6c/Craft_glazed_donuts.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6c/Craft_glazed_donuts.png"
   },
   {
     "id": 28,
     "name": "Fluffy Castella",
     "is_goods": 1,
-    "building": "Bakery",
+    "building_id": 4,
     "level": 5,
     "production_time": 10800,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/92/Craft_fluffy_castella.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/92/Craft_fluffy_castella.png"
   },
   {
     "id": 29,
     "name": "Golden Croissant",
     "is_goods": 1,
-    "building": "Bakery",
+    "building_id": 4,
     "level": 6,
     "production_time": 21600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/30/Craft_golden_croissant.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/30/Craft_golden_croissant.png"
   },
   {
     "id": 30,
     "name": "Hot Jelly Stew",
     "is_goods": 1,
-    "building": "Jampie Diner",
+    "building_id": 5,
     "level": 1,
     "production_time": 1080,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e5/Craft_hot_jelly_stew.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e5/Craft_hot_jelly_stew.png"
   },
   {
     "id": 31,
     "name": "Bear Jelly Burger",
     "is_goods": 1,
-    "building": "Jampie Diner",
+    "building_id": 5,
     "level": 2,
     "production_time": 1320,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/bf/Craft_bear_jelly_burger.png/revision/latest/scale-to-width-down/100?cb=20210302160047"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/bf/Craft_bear_jelly_burger.png"
   },
   {
     "id": 32,
     "name": "Candy Pasta",
     "is_goods": 1,
-    "building": "Jampie Diner",
+    "building_id": 5,
     "level": 3,
     "production_time": 3000,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d8/Craft_candy_pasta.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d8/Craft_candy_pasta.png"
   },
   {
     "id": 33,
     "name": "Fluffy Omurice",
     "is_goods": 1,
-    "building": "Jampie Diner",
+    "building_id": 5,
     "level": 4,
     "production_time": 5400,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c7/Craft_fluffy_omurice.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c7/Craft_fluffy_omurice.png"
   },
   {
     "id": 34,
     "name": "Jelly Deluxe Pizza",
     "is_goods": 1,
-    "building": "Jampie Diner",
+    "building_id": 5,
     "level": 5,
     "production_time": 12600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/ee/Craft_jelly_deluxe_pizza.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/ee/Craft_jelly_deluxe_pizza.png"
   },
   {
     "id": 35,
     "name": "Fancy Jellybean Meal",
     "is_goods": 1,
-    "building": "Jampie Diner",
+    "building_id": 5,
     "level": 6,
     "production_time": 25200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/55/Craft_fancy_jellybean_meal.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/55/Craft_fancy_jellybean_meal.png"
   },
   {
     "id": 36,
     "name": "Biscuit Planter",
     "is_goods": 1,
-    "building": "Artisan's Workshop",
+    "building_id": 6,
     "level": 1,
     "production_time": 900,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0b/Craft_biscuit_planter.png/revision/latest/scale-to-width-down/100?cb=20210302160047"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0b/Craft_biscuit_planter.png"
   },
   {
     "id": 37,
     "name": "Shiny Glass",
     "is_goods": 1,
-    "building": "Artisan's Workshop",
+    "building_id": 6,
     "level": 2,
     "production_time": 1680,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b8/Craft_shiny_glass.png/revision/latest/scale-to-width-down/100?cb=20210411231031"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b8/Craft_shiny_glass.png"
   },
   {
     "id": 38,
     "name": "Gleamy Bead",
     "is_goods": 1,
-    "building": "Artisan's Workshop",
+    "building_id": 6,
     "level": 3,
     "production_time": 7200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f4/Craft_gleamy_bead.png/revision/latest/scale-to-width-down/100?cb=20220416033152"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f4/Craft_gleamy_bead.png"
   },
   {
     "id": 39,
     "name": "Colorful Bowl",
     "is_goods": 1,
-    "building": "Artisan's Workshop",
+    "building_id": 6,
     "level": 4,
     "production_time": 18000,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/88/Craft_colorful_bowl.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/88/Craft_colorful_bowl.png"
   },
   {
     "id": 40,
     "name": "Candy Flower",
     "is_goods": 1,
-    "building": "Flower Shop",
+    "building_id": 7,
     "level": 1,
     "production_time": 1200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c2/Craft_candy_flower.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c2/Craft_candy_flower.png"
   },
   {
     "id": 41,
     "name": "Happy Planter",
     "is_goods": 1,
-    "building": "Flower Shop",
+    "building_id": 7,
     "level": 2,
     "production_time": 1800,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/ec/Craft_happy_planter.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/ec/Craft_happy_planter.png"
   },
   {
     "id": 42,
     "name": "Candy Bouquet",
     "is_goods": 1,
-    "building": "Flower Shop",
+    "building_id": 7,
     "level": 3,
     "production_time": 3600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a1/Craft_candy_bouquet.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a1/Craft_candy_bouquet.png"
   },
   {
     "id": 43,
     "name": "Lollipop Flower Basket",
     "is_goods": 1,
-    "building": "Flower Shop",
+    "building_id": 7,
     "level": 4,
     "production_time": 9000,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/3f/Craft_lollipop_flower_basket.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/3f/Craft_lollipop_flower_basket.png"
   },
   {
     "id": 44,
     "name": "Bell-Flower Bouquet",
     "is_goods": 1,
-    "building": "Flower Shop",
+    "building_id": 7,
     "level": 5,
     "production_time": 16200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/67/Craft_bell-flower_bouquet.png/revision/latest/scale-to-width-down/100?cb=20210302160047"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/67/Craft_bell-flower_bouquet.png"
   },
   {
     "id": 45,
     "name": "Glittering Yogurt Wreath",
     "is_goods": 1,
-    "building": "Flower Shop",
+    "building_id": 7,
     "level": 6,
     "production_time": 27000,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/33/Craft_glittering_yogurt_wreath.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/33/Craft_glittering_yogurt_wreath.png"
   },
   {
     "id": 46,
     "name": "Cream",
     "is_goods": 1,
-    "building": "Dairy Factory",
+    "building_id": 8,
     "level": 1,
     "production_time": 1800,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fb/Craft_cream.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fb/Craft_cream.png"
   },
   {
     "id": 47,
     "name": "Butter",
     "is_goods": 1,
-    "building": "Dairy Factory",
+    "building_id": 8,
     "level": 2,
     "production_time": 9000,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a4/Craft_butter.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a4/Craft_butter.png"
   },
   {
     "id": 48,
     "name": "Homemade Cheese",
     "is_goods": 1,
-    "building": "Dairy Factory",
+    "building_id": 8,
     "level": 3,
     "production_time": 16200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/2e/Craft_homemade_cheese.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/2e/Craft_homemade_cheese.png"
   },
   {
     "id": 49,
     "name": "Jellybean Latte",
     "is_goods": 1,
-    "building": "Latte Cafe",
+    "building_id": 9,
     "level": 1,
     "production_time": 3600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/36/Craft_jellybean_latte.png/revision/latest/scale-to-width-down/100?cb=20210302160049"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/36/Craft_jellybean_latte.png"
   },
   {
     "id": 50,
     "name": "Bubbly Boba",
     "is_goods": 1,
-    "building": "Latte Cafe",
+    "building_id": 9,
     "level": 2,
     "production_time": 10800,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b0/Craft_bubbly_boba.png/revision/latest/scale-to-width-down/100?cb=20210302160047"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b0/Craft_bubbly_boba.png"
   },
   {
     "id": 51,
     "name": "Sweetberry Juice",
     "is_goods": 1,
-    "building": "Latte Cafe",
+    "building_id": 9,
     "level": 3,
     "production_time": 23400,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a8/Craft_sweetberry_juice.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a8/Craft_sweetberry_juice.png"
   },
   {
     "id": 52,
     "name": "Cloud Pillow",
     "is_goods": 1,
-    "building": "Toy Store",
+    "building_id": 10,
     "level": 1,
     "production_time": 5400,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b3/Craft_cloud_pillow.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b3/Craft_cloud_pillow.png"
   },
   {
     "id": 53,
     "name": "Bear Jelly Toy",
     "is_goods": 1,
-    "building": "Toy Store",
+    "building_id": 10,
     "level": 2,
     "production_time": 14400,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f4/Craft_bear_jelly_toy.png/revision/latest/scale-to-width-down/100?cb=20210302160047"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f4/Craft_bear_jelly_toy.png"
   },
   {
     "id": 54,
     "name": "Pitaya Dragon Toy",
     "is_goods": 1,
-    "building": "Toy Store",
+    "building_id": 10,
     "level": 3,
     "production_time": 25200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fc/Craft_pitaya_dragon_toy.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fc/Craft_pitaya_dragon_toy.png"
   },
   {
     "id": 55,
     "name": "Cream Root Beer",
     "is_goods": 1,
-    "building": "Barrel Inn",
+    "building_id": 11,
     "level": 1,
     "production_time": 9000,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/1c/Craft_cream_root_beer.png/revision/latest/scale-to-width-down/100?cb=20210302160048"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/1c/Craft_cream_root_beer.png"
   },
   {
     "id": 56,
     "name": "Redberry Juice",
     "is_goods": 1,
-    "building": "Barrel Inn",
+    "building_id": 11,
     "level": 2,
     "production_time": 23400,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/bc/Craft_redberry_juice.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/bc/Craft_redberry_juice.png"
   },
   {
     "id": 57,
     "name": "Vintage Root Bottle",
     "is_goods": 1,
-    "building": "Barrel Inn",
+    "building_id": 11,
     "level": 3,
     "production_time": 28800,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/04/Craft_vintage_root_bottle.png/revision/latest/scale-to-width-down/100?cb=20210302160050"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/04/Craft_vintage_root_bottle.png"
   },
   {
     "id": 58,
     "name": "Spooky Muffin",
     "is_goods": 1,
-    "building": "Maison du Cake",
+    "building_id": 12,
     "level": 1,
     "production_time": 12600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/8f/Craft_spooky_muffin.png/revision/latest/scale-to-width-down/97?cb=20210410203028"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/8f/Craft_spooky_muffin.png"
   },
   {
     "id": 59,
     "name": "Strawberry Cake",
     "is_goods": 1,
-    "building": "Maison du Cake",
+    "building_id": 12,
     "level": 2,
     "production_time": 21600,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/9b/Craft_strawberry_cake.png/revision/latest/scale-to-width-down/100?cb=20210410203040"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/9b/Craft_strawberry_cake.png"
   },
   {
     "id": 60,
     "name": "Party Cake",
     "is_goods": 1,
-    "building": "Maison du Cake",
+    "building_id": 12,
     "level": 3,
     "production_time": 28800,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/ab/Craft_party_cake.png/revision/latest/scale-to-width-down/97?cb=20210410203046"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/ab/Craft_party_cake.png"
   },
   {
     "id": 61,
     "name": "Glazed Ring",
     "is_goods": 1,
-    "building": "Jewelry Salon",
+    "building_id": 13,
     "level": 1,
     "production_time": 16200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/8e/Craft_glazed_ring.png/revision/latest/scale-to-width-down/100?cb=20210410203052"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/8e/Craft_glazed_ring.png"
   },
   {
     "id": 62,
     "name": "Rubyberry Brooch",
     "is_goods": 1,
-    "building": "Jewelry Salon",
+    "building_id": 13,
     "level": 2,
     "production_time": 25200,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b8/Craft_rubyberry_brooch.png/revision/latest/scale-to-width-down/100?cb=20210410203100"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b8/Craft_rubyberry_brooch.png"
   },
   {
     "id": 63,
     "name": "Bear Jelly Crown",
     "is_goods": 1,
-    "building": "Jewelry Salon",
+    "building_id": 13,
     "level": 3,
     "production_time": 27000,
-    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fb/Craft_bear_jelly_crown.png/revision/latest/scale-to-width-down/100?cb=20210410203106"
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fb/Craft_bear_jelly_crown.png"
   }
 ]
