@@ -12,3 +12,7 @@
 * {
   font-family: CookieRun;
 }
+
+.vs__dropdown-toggle {
+  background-color: white !important;
+}

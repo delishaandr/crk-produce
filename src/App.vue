@@ -39,8 +39,14 @@
           </div>
           <div class="p-2 flex-fill goods-title">{{ selectedGoods.name }}</div>
           <div class="p-2" style="text-align: end;">
-            <div v-if="isSelectedGoods">{{ formatTime(selectedGoods.production_time) }}</div>
-            <div>{{ getBuilding(selectedGoods.building_id) }}</div>
+            <div v-if="isSelectedGoods">
+              <span><img class="title-icon" src="./assets/icons/clock.png"></span>
+              <span>{{ formatTime(selectedGoods.production_time) }}</span>
+            </div>
+            <div>
+              <span><img class="title-icon" src="./assets/icons/building.png"></span>
+              <span>{{ getBuilding(selectedGoods.building_id) }}</span>
+            </div>
           </div>
         </div>
         <div class="mt-3 row">
@@ -167,6 +173,10 @@ export default {
 .goods-title {
   font-size: x-large;
   font-weight: bold;
+}
+.title-icon {
+  width: 20px;
+  margin-right: 5px;
 }
 .clickable:hover {
   cursor: pointer;
