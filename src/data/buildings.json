@@ -1,82 +1,102 @@
 [
   {
     "id": 1,
-    "name": "Smithy"
+    "name": "Smithy",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/50/Building_smithy.png"
   },
   {
     "id": 2,
-    "name": "Jammery"
+    "name": "Jammery",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/14/Building_jammery.png"
   },
   {
     "id": 3,
-    "name": "Carpentry Shop"
+    "name": "Carpentry Shop",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/14/Building_carpentry_shop.png"
   },
   {
     "id": 4,
-    "name": "Bakery"
+    "name": "Bakery",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/19/Building_bakery.png"
   },
   {
     "id": 5,
-    "name": "Jampie Diner"
+    "name": "Jampie Diner",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fc/Building_jampie_diner.png"
   },
   {
     "id": 6,
-    "name": "Artisan's Workshop"
+    "name": "Artisan's Workshop",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/5a/Building_artisans_workshop.png"
   },
   {
     "id": 7,
-    "name": "Flower Shop"
+    "name": "Flower Shop",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/7b/Building_flower_shop.png"
   },
   {
     "id": 8,
-    "name": "Dairy Factory"
+    "name": "Dairy Factory",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/87/Building_dairy_factory.png"
   },
   {
     "id": 9,
-    "name": "Latte Cafe"
+    "name": "Latte Cafe",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c0/Building_latte_cafe.png"
   },
   {
     "id": 10,
-    "name": "Toy Store"
+    "name": "Toy Store",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/87/Building_toy_store.png"
   },
   {
     "id": 11,
-    "name": "Barrel Inn"
+    "name": "Barrel Inn",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e6/Building_barrel_inn.png"
   },
   {
     "id": 12,
-    "name": "Maison du Cake"
+    "name": "Maison du Cake",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/3c/Building_maison_du_cake.png"
   },
   {
     "id": 13,
-    "name": "Jewelry Salon"
+    "name": "Jewelry Salon",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d9/Building_jewelry_salon.png"
   },
   {
     "id": 14,
-    "name": "Lumberjack's Lodge"
+    "name": "Lumberjack's Lodge",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/04/Building_lumberjack_lodge.png"
   },
   {
     "id": 15,
-    "name": "Jellybean Farm"
+    "name": "Jellybean Farm",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/47/Building_jellybean_farm.png"
   },
   {
     "id": 16,
-    "name": "Sugar Quarry"
+    "name": "Sugar Quarry",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/54/Building_sugar_quarry.png"
   },
   {
     "id": 17,
-    "name": "Windmill"
+    "name": "Windmill",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/2e/Building_windmill.png"
   },
   {
     "id": 18,
-    "name": "Jellyberry Orchard"
+    "name": "Jellyberry Orchard",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/77/Building_jellyberry_orchard.png"
   },
   {
     "id": 19,
-    "name": "Milk Well"
+    "name": "Milk Well",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/09/Building_milk_well.png"
   },
   {
     "id": 20,
-    "name": "Cotton Candy Ranch"
+    "name": "Cotton Candy Ranch",
+    "image_url": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/48/Building_cotton_candy_ranch.png"
   }
 ]

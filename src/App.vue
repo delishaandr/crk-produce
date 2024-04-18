@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4">
+  <div class="px-4 pt-4">
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="mb-3">
@@ -10,7 +10,17 @@
             label="name" 
             placeholder="Select building..." 
             :options="buildings"
-            :reduce="(option) => option.id" />
+            :reduce="(option) => option.id"
+          >
+            <template #option="option">
+              <div class="d-flex">
+                <div style="width: 65px;">
+                  <img :src="option.image_url" class="py-1" width="55px" />
+                </div>
+                <div class="my-auto">{{ option.name }}</div>
+              </div>
+            </template>
+          </v-select>
         </div>
         <div>
           <label>Search Goods</label>
@@ -24,7 +34,7 @@
             <template #option="option">
               <div class="d-flex">
                 <div style="width: 40px;">
-                  <img :src="option.image_url" class="py-1" height="35px" />
+                  <img :src="option.image_url" class="py-1" width="30px" />
                 </div>
                 <div class="my-auto">{{ option.name }}</div>
               </div>
@@ -33,7 +43,7 @@
         </div>
       </div>
       <div class="col-md-8">
-        <div v-if="isSelected" class="d-flex align-items-center mb-4">
+        <div v-if="isSelected" class="d-flex align-items-center goods-header">
           <div class="p-2">
             <img :src="selectedGoods.image_url" width="50px">
           </div>
@@ -49,13 +59,13 @@
             </div>
           </div>
         </div>
-        <div class="mt-3 row">
+        <div class="row">
           <div v-if="isSelectedGoods" class="col-md-6 mb-4">
             <h5>Ingredients</h5>
             <div v-for="(ingredient, i) in selectedIngredients" :key="i">
               <div class="outline-text material-container d-flex align-items-center" @click="setSelected(ingredient.detail)">
-                <div class="p-2">
-                  <img :src="ingredient.detail.image_url" width="50px">
+                <div class="p-2 container-img">
+                  <img :src="ingredient.detail.image_url" height="50px">
                 </div>
                 <div class="p-2 flex-fill">{{ ingredient.detail.name }} (x{{ ingredient.amount }})</div>
                 <div v-if="ingredient.detail.is_goods">
@@ -64,17 +74,20 @@
               </div>
             </div>
           </div>
-          <div v-if="isSelected" class="col-md-6 mb-3">
+          <div v-if="isSelected && selectedUsedIn.length > 0" class="col-md-6 mb-3">
             <h5>Used In</h5>
-            <div v-for="(prod, i) in selectedUsedIn" :key="i">
-              <div class="outline-text material-container d-flex align-items-center" @click="setSelected(prod.detail)">
-                <div class="p-2">
-                  <img :src="prod.detail.image_url" width="50px">
+            <div class="products-container">
+              <div v-for="(prod, i) in selectedUsedIn" :key="i">
+                <div class="outline-text material-container d-flex align-items-center" @click="setSelected(prod.detail)">
+                  <div class="p-2 container-img">
+                    <img :src="prod.detail.image_url" height="50px">
+                  </div>
+                  <div class="p-2 flex-fill">{{ prod.detail.name }}</div>
+                  <div class="p-2">{{ prod.amount }}</div>
                 </div>
-                <div class="p-2 flex-fill">{{ prod.detail.name }}</div>
-                <div class="p-2">{{ prod.amount }}</div>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
@@ -170,6 +183,9 @@ export default {
 </script>
 
 <style scoped>
+.goods-header {
+  min-height: 90px;
+}
 .goods-title {
   font-size: x-large;
   font-weight: bold;
@@ -177,6 +193,21 @@ export default {
 .title-icon {
   width: 20px;
   margin-right: 5px;
+}
+.container-img {
+  width: 70px; 
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .products-container {
+    height: calc(100vh - 170px);
+    overflow-y: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .goods-header {
+    margin-bottom: 20px;
+  }
 }
 
 </style>
