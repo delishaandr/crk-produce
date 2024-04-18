@@ -37,7 +37,7 @@
           <div class="p-2">
             <img :src="selectedGoods.image_url" width="50px">
           </div>
-          <div class="p-2 flex-fill" style="font-size: x-large;">{{ selectedGoods.name }}</div>
+          <div class="p-2 flex-fill goods-title">{{ selectedGoods.name }}</div>
           <div class="p-2" style="text-align: end;">
             <div v-if="isSelectedGoods">{{ formatTime(selectedGoods.production_time) }}</div>
             <div>{{ getBuilding(selectedGoods.building_id) }}</div>
@@ -47,7 +47,7 @@
           <div v-if="isSelectedGoods" class="col-md-6 mb-4">
             <h5>Ingredients</h5>
             <div v-for="(ingredient, i) in selectedIngredients" :key="i">
-              <div class="d-flex align-items-center">
+              <div class="clickable d-flex align-items-center" @click="setSelected(ingredient.detail)">
                 <div class="p-2">
                   <img :src="ingredient.detail.image_url" width="50px">
                 </div>
@@ -61,7 +61,7 @@
           <div v-if="isSelected" class="col-md-6 mb-3">
             <h5>Used In</h5>
             <div v-for="(prod, i) in selectedUsedIn" :key="i">
-              <div class="d-flex align-items-center">
+              <div class="clickable d-flex align-items-center" @click="setSelected(prod.detail)">
                 <div class="p-2">
                   <img :src="prod.detail.image_url" width="50px">
                 </div>
@@ -155,11 +155,21 @@ export default {
         detail: products.find((p) => p.id === i.product_id)
       }))
       console.log(this.selectedUsedIn)
+    },
+    setSelected(value) {
+      this.selectedGoods = value
     }
   }
 }
 </script>
 
 <style scoped>
+.goods-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+.clickable:hover {
+  cursor: pointer;
+}
 
 </style>
