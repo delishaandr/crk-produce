@@ -1,7 +1,33 @@
-# Vue 3 + Vite
+# CRK Production Helper
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a helper website for the Cookie Run Kingdom crafting feature. It shows what each material is used for and the ingredients to make them. Updated for game version 5.3. Published on [Netlify](https://www.netlify.com/) at [https://crk-produce.netlify.app](https://crk-produce.netlify.app).
 
-## Recommended IDE Setup
+## Getting Started
+### Prerequisites
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Node.js 18 / 20+
+- NPM 8+
+
+### Installing
+
+1. Clone repository
+   ```
+   git clone https://github.com/delishaandr/crk-produce.git
+   ```
+   
+2. Install NPM packages
+   ```
+   npm install
+   ```
+
+### Running
+
+```
+npm run dev
+```
+
+## Features
+
+- Finding materials by building and with search feature
+- Showing the (default) time taken to craft materials as well as where to craft them
+- Showing ingredients for each material and what materials they're used for
