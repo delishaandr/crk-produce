@@ -1,7 +1,7 @@
 <template>
   <div class="px-4 pt-4">
     <div class="row">
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4 mb-2">
         <div class="mb-3">
           <label>Filter by Building</label>
           <v-select 
@@ -41,9 +41,12 @@
             </template>
           </v-select>
         </div>
+        <div class="mt-3" style="text-align: end;">
+          <button class="clear-btn outline-text" :class="`active-${isActive}`" type="button" @click="clearSearch">Clear</button>
+        </div>
       </div>
       <div class="col-md-8">
-        <div v-if="isSelected" class="d-flex align-items-center goods-header">
+        <div v-if="isSelected" class="d-flex align-items-center goods-header mb-1">
           <div class="p-2">
             <img :src="selectedGoods.image_url" width="50px">
           </div>
@@ -113,35 +116,40 @@ export default {
       buildings: buildings,
       options: products,
 
-      selectedBuilding: '',
+      selectedBuilding: null,
       selectedGoods: null,
 
       selectedIngredients: [],
       selectedUsedIn: [],
       isSelected: 0,
-      isSelectedGoods: 0
+      isSelectedGoods: 0,
+      isActive: 0
     }
   },
   watch: {
     selectedBuilding(value) {
       this.selectedGoods = null
+      this.isActive = 1
       if (value !== null) {
         this.options = this.products.filter((p) => p.building_id === value )
       } else {
+        this.isActive = 0
         this.options = this.products
       }
     },
     selectedGoods(value) {
       if (value !== null) {
         this.isSelected = 1
+        this.isActive = 1
         this.isSelectedGoods = value.is_goods
         this.getIngredients(value.id)
         this.getUsedIn(value.id)
       } else {
         this.isSelected = 0
-        this.isSelectedGoods = 0
+        this.isSelectedGoods = null
         this.selectedIngredients = []
         this.selectedUsedIn = []
+        if (this.selectedBuilding === null) this.isActive = 0
       }
     }
   },
@@ -173,18 +181,36 @@ export default {
         ...i,
         detail: products.find((p) => p.id === i.product_id)
       }))
-      console.log(this.selectedUsedIn)
     },
     setSelected(value) {
       this.selectedGoods = value
+    },
+    clearSearch() {
+      this.isActive = 0
+      this.selectedBuilding = null
+      this.selectedGoods = null
     }
   }
 }
 </script>
 
 <style scoped>
+.clear-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.clear-btn.active-0 {
+  border: 2px solid #767676;
+  background-color: #B4B4B4;
+}
+.clear-btn.active-1 {
+  border: 2px solid #4a8102;
+  background-color: #79cf0c;
+}
 .goods-header {
-  min-height: 90px;
+  min-height: 80px;
 }
 .goods-title {
   font-size: x-large;
